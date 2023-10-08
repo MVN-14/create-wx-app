@@ -7,6 +7,8 @@ bool MkDir(std::string const &path);
 
 bool GenerateCMAKEFile(std::string const &projectPath, std::string const &appName);
 
-bool GenerateHeaderFiles(std::string const &projectPath, std::string const &appName = "createWxApp");
+bool GenerateHeaderFiles(std::string const &projectPath, std::string const &appName);
+
+bool GenerateSourceFiles(std::string const &projectPath, std::string const &appName);
 
 #endif
